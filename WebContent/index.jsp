@@ -82,7 +82,7 @@
 								<div class="contactForm_td1">Phone</div>
 								<div class="contactForm_tdMiddle">:</div>
 								<div class="contactForm_td2">
-									<input name="phone" type="text" class="Personal-input"
+									<input name="phone" type="text" class="Personal-input" placeholder="Enter Phone"
 										id="contactPerson" value="">
 								</div>
 								<div class="contactForm_td2"
