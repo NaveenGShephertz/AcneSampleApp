@@ -79,7 +79,6 @@
 									id="emailErr">Email is mandatory</div>
 							</div>
 
-							</div>
 							</fieldset>
 						<fieldset>
 							<legend>What do you like about this Page</legend>
