@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Acne Sample Application</title>
+<title>App42 Sample Java-MySql Application</title>
 <link href="css/style-User-Input-Form.css" rel="stylesheet"
 	type="text/css">
 <script type="text/javascript" src="js/jquery-1.6.4.js"></script>
@@ -40,8 +40,9 @@
 		<div class="App42PaaS_header_inner">
 			<div class="App42PaaS_header">
 				<div class="logo">
-					<a href="http://paas.shephertz.com"><img border="0"
-						alt="App42PaaS" src="images/logo.png"></img></a>
+					<!--a href="http://paas.shephertz.com"><img border="0"
+						alt="App42PaaS" src="images/logo.png"></img></a-->
+						<div class="contactPage_title">Acne Sample App</div>
 				</div>
 			</div>
 		</div>
@@ -50,8 +51,7 @@
 	<div class="App42PaaS_body_wrapper">
 		<div class="App42PaaS_body">
 			<div class="App42PaaS_body_inner">
-				<div class="contactPage_title">Acne Sample App</div>
-
+				
 				<div class="form_wrapper">
 					<form method="post" action="save">
 						<fieldset>
@@ -78,18 +78,7 @@
 									style="color: red; padding-left: 90px; display: none;"
 									id="emailErr">Email is mandatory</div>
 							</div>
-							<div class="contactForm_tr">
-								<div class="contactForm_td1">Phone</div>
-								<div class="contactForm_tdMiddle">:</div>
-								<div class="contactForm_td2">
-									<input name="phone" type="text" id="phone"
-										class="Personal-input" maxlength="30" placeholder="Enter Phone"/>
-								</div>
-								<div class="contactForm_td2"
-									style="color: red; padding-left: 90px; display: none;"
-									id="phoneErr">Phone is mandatory</div>
-							</div>
-							</fieldset>
+						</fieldset>
 						<fieldset>
 							<legend>What do you like about this Page</legend>
 							<div class="massage-box">
@@ -98,12 +87,14 @@
 							</div>
 						</fieldset>
 						<div class="form-button">
-							<input id="SubmitButton" class="submit_btn" type="image" border="0"
-								name="submit" alt="Submit" src="images/submit_btn.png"></input>
+						<button class="btn btn-success" type="submit" id="SubmitButton">Success</button>
+							<!--input id="SubmitButton" class="submit_btn btn-succes" type="image" border="0"
+								name="submit" alt="Submit" src="images/submit_btn.png"></input-->
 						</div>
 						<div class="form-button">
-							<input id="Submit" class="clear_btn" type="image" border="0"
-								name="clear" alt="clear" src="images/clear_btn.png">
+						<button class="btn btn-danger" type="button" id="Submit">Clear</button>
+							<!--input id="Submit" class="clear_btn" type="image" border="0"
+								name="clear" alt="clear" src="images/clear_btn.png"-->
 						</div>
 					</form>
 				</div>
