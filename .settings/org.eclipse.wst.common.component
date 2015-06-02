@@ -3,6 +3,6 @@
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <property name="java-output-path" value="/Sample-Java-Sql/build/classes"/>
-        <property name="context-root" value="App42PaaS-Java-MySQL-Sample"/>
+        <property name="context-root" value="AcneSampleApp"/>
     </wb-module>
 </project-modules>
